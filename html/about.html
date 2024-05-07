@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про нас</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/file.js"></script>
+</head>
+<body>
+    <header class="header">
+      <svg fill="#000000" width="50px" height="50px" viewBox="0 0 24 24" id="eye" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon-flat-color"><path id="secondary" d="M19.79,11.38C19.65,11.2,16.3,7,12,7s-7.65,4.2-7.79,4.38a1,1,0,0,0,0,1.24C4.35,12.8,7.7,17,12,17s7.65-4.2,7.79-4.38A1,1,0,0,0,19.79,11.38Z" style="fill: rgb(44, 169, 188);"></path><path id="primary" d="M15,12a3,3,0,1,1-3-3A3,3,0,0,1,15,12ZM4,7V4H7A1,1,0,0,0,7,2H4A2,2,0,0,0,2,4V7A1,1,0,0,0,4,7ZM22,7V4a2,2,0,0,0-2-2H17a1,1,0,0,0,0,2h3V7a1,1,0,0,0,2,0ZM8,21a1,1,0,0,0-1-1H4V17a1,1,0,0,0-2,0v3a2,2,0,0,0,2,2H7A1,1,0,0,0,8,21Zm14-1V17a1,1,0,0,0-2,0v3H17a1,1,0,0,0,0,2h3A2,2,0,0,0,22,20Z" style="fill: rgb(0, 0, 0);"></path></svg>
+        <nav class="main-menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="index.html" class="menu-link">Головна</a></li>
+            <li class="menu-item"><a href="theory.html" class="menu-link">Теорія</a></li>
+            <li class="menu-item"><a href="tags.html" class="menu-link">Теги</a></li>
+            <li class="menu-item"><a href="examples.html" class="menu-link">Приклади</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="conteiner">
+        
+        <div id="content">
+          <div class="font-selector">
+            <label for="font">Виберіть шрифт:</label>
+              <select id="font" onchange="changeFont()">
+                  <option value="Arial">Arial</option>
+                  <option value="Times New Roman">Times New Roman</option>
+                  <option value="Verdana">Verdana</option>
+              </select>
+          </div>
+      
+          <div class="font-size-selector">
+              <label for="fontSize">Виберіть кегль:</label>
+                <select id="fontKegel" onchange="changeFontKegel()">
+                    <option value="12px">12px</option>
+                    <option value="16px">16px</option>
+                    <option value="20px">20px</option>
+                </select>
+          </div>
+
+          <div class="double-container">
+          <div class="left-content">                        
+            <div class="text">
+              <p><h1>Про нас<br></h1><br></p>
+
+                <p><h2><b>Хто ми?</b></h2><br>
+                    Ми - команда ентузіастів, які присвятили себе створенню доступного та інклюзивного Інтернету для всіх.
+                    Наша місія - зробити веб-простір більш дружнім до людей з вадами зору та іншими особливими потребами.
+                </p>
+                
+                <p><h2><b>Наша історія</b></h2><br>
+                    Ідея створення цього сайту виникла, коли один із наших знайомих, Джон,
+                    зіткнувся з труднощами при пошуку інформації в Інтернеті через своє порушення зору.
+                    Ми зрозуміли, що багато сайтів не враховують потреби людей з особливими потребами, і вирішили змінити це.
+                    Об'єднавшись з командою однодумців, ми розпочали роботу над створенням всеосяжного посібника, який
+                    допоможе веб-розробникам створювати доступні сайти. Наша мета - зробити Інтернет більш інклюзивним для всіх.
+                </p>
+
+                <p><h2><b>Наші цінності</b></h2><br>
+                    <ul>
+                      <li>Інклюзивність: Ми віримо, що Інтернет має бути доступним для всіх, незалежно від їхніх можливостей.</li>
+                      <li>Доступність: Ми прагнемо створювати рішення, які відповідають найвищим стандартам веб-доступності.</li>
+                      <li>Співпраця: Ми тісно співпрацюємо з користувачами, експертами та організаціями, щоб постійно вдосконалювати
+                        наші матеріали.</li>
+                      <li>Безперервне навчання: Ми завжди готові вчитися та впроваджувати нові підходи для покращення доступності Інтернету.</li>
+                    </ul>
+                    Приєднуйтесь до нас у нашій місії зробити Інтернет більш інклюзивним для всіх!
+                  </p>
+
+            </div>
+          </div>
+        <div class="right-content">
+          <div class="text-right">
+
+          <img src="../foto/about-us.jpg">
+
+          </div>
+        </div>
+        
+      
+    </div>
+    
+      
+    <script src="script.js"></script>
+    </div>
+    </div>
+
+             <button id="scrollToTopBtn" onclick="scrollToTop()" title="Go to top">↑</button>
+
+            </div>
+
+        <footer class="footer">
+          <div class="footer-link">
+            <a href="https://www.youtube.com/@Ukrainianizationdeaf"><img src="../foto/icons8-youtube.svg"></a>    
+            <a href="https://www.instagram.com/ukrainization.deaf/"><img src="../foto/icons8-instagram.svg"></a>
+          </div>
+        </footer>
+    
+</body>
+</html>

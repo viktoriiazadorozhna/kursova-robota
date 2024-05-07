@@ -1,0 +1,202 @@
+.header {
+    background-color: #c1e3ff;
+    color: black;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify
+  }
+
+.conteiner{
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify
+}
+
+.menu-list{
+    color: black;
+}
+
+
+.footer{
+    background-color: #c1e3ff;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: justify
+}
+
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0 px;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+    margin-top: 60 px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #153f65;
+  }
+
+
+
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #153f65;
+    color: #c1e3ff;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#scrollToTopBtn:hover {
+    background-color: #555;
+}
+
+.text li a{
+  color: black;
+}
+
+#arrowButton{
+    background-color: #153f65;
+    color: #c1e3ff;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.icon-flat-color{
+  top: 50%;      /* Вертикальне центрування відносно футера */
+} 
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.logo {
+  margin-right: 20px; /* Простий простір між логотипом і меню */
+  width: 50px; /* Задаємо фіксовану ширину для логотипу */
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr; /* Логотип - фіксована ширина, решта простору відводиться для меню */
+  align-items: center;
+}
+
+.main-menu {
+  justify-self: center; /* Центрує меню в межах хедера */
+}
+
+.footer-link{
+  color: #fff;
+}
+
+.footer {
+  text-align: center; /* Центрує вміст у футері */
+}
+
+.footer-link {
+  display: flex; /* Встановлюємо властивість flex для контейнера, щоб додати гнучкий контейнер */
+  justify-content: center; /* Центрує елементи у горизонтальному напрямку */
+}
+
+.footer-link a {
+  display: inline-block; /* Дозволяємо елементам вирівнюватися по вертикалі та горизонталі */
+  margin: 0 10px; /* Задаємо відступи між елементами */
+}
+
+.footer-link img {
+  width: 50px; /* Задаємо однакову ширину для всіх зображень */
+  height: auto; /* Забезпечуємо автоматичне збереження пропорцій розмірів */
+  filter: hue-rotate(194deg) brightness(80%) contrast(150%); /* Застосовуємо фільтр, щоб змінити колір */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Розділяє контейнер на дві колонки, кожна займає однакову ширину */
+}
+
+.text {
+  padding: 20px;
+}
+
+.images {
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.left-content {     /*Розташування контекнту у лівій частині сторінки*/
+  width: 50%;
+  padding: 20px;
+  text-align: justify
+}
+
+.right-content {    /*Розташування контекнту у правій частині сторінки*/
+  width: 50%;
+  padding: 20px;
+  text-align: justify
+}
+
+
+h1 {  /* Стилі для заголовка */
+  margin-top: 0.5em; /* Зменшуємо верхній відступ заголовка */
+  margin-bottom: 0.5em; /* Зменшуємо нижній відступ заголовка */
+}
+
+h2 { 
+  margin-top: 0.0005em; /* Зменшуємо верхній відступ заголовка */
+  margin-bottom: 0.0005em; /* Зменшуємо нижній відступ заголовка */
+}
+
+.double-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {               /*Для рівняня зображення по центру*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-right {
+  text-align: center;
+}
+
+hr {                /*Характеристика відокремлювальної риски*/
+  border: none;
+  border-top: 2px solid #000000;
+  margin: 20px 0;
+}

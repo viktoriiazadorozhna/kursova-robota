@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Приклади</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/file.js"></script>
+</head>
+<body>
+    <header class="header">
+      <svg fill="#000000" width="50px" height="50px" viewBox="0 0 24 24" id="eye" data-name="Flat Color" xmlns="http://www.w3.org/2000/svg" class="icon-flat-color"><path id="secondary" d="M19.79,11.38C19.65,11.2,16.3,7,12,7s-7.65,4.2-7.79,4.38a1,1,0,0,0,0,1.24C4.35,12.8,7.7,17,12,17s7.65-4.2,7.79-4.38A1,1,0,0,0,19.79,11.38Z" style="fill: rgb(44, 169, 188);"></path><path id="primary" d="M15,12a3,3,0,1,1-3-3A3,3,0,0,1,15,12ZM4,7V4H7A1,1,0,0,0,7,2H4A2,2,0,0,0,2,4V7A1,1,0,0,0,4,7ZM22,7V4a2,2,0,0,0-2-2H17a1,1,0,0,0,0,2h3V7a1,1,0,0,0,2,0ZM8,21a1,1,0,0,0-1-1H4V17a1,1,0,0,0-2,0v3a2,2,0,0,0,2,2H7A1,1,0,0,0,8,21Zm14-1V17a1,1,0,0,0-2,0v3H17a1,1,0,0,0,0,2h3A2,2,0,0,0,22,20Z" style="fill: rgb(0, 0, 0);"></path></svg>
+        <nav class="main-menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="index.html" class="menu-link">Головна</a></li>
+            <li class="menu-item"><a href="theory.html" class="menu-link">Теорія</a></li>
+            <li class="menu-item"><a href="tags.html" class="menu-link">Теги</a></li>
+            <li class="menu-item"><a href="examples.html" class="menu-link">Приклади</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="conteiner">
+
+      <nav>
+        <ul class="text">
+          <li><a href="right_work.html">Правильна верстка</a></li>
+          <li><a href="use_tags.html">Використання тегів</a></li>
+        </ul>
+      </nav>
+
+      <div class="conteiner">
+        <div id="content">
+          <div class="font-selector">
+            <label for="font">Виберіть шрифт:</label>
+            <select id="font" onchange="changeFont()">
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana">Verdana</option>
+            </select>
+          </div>
+        
+        <div class="font-size-selector">
+            <label for="fontSize">Виберіть кегль:</label>
+            <select id="fontKegel" onchange="changeFontKegel()">
+                <option value="12px">12px</option>
+                <option value="16px">16px</option>
+                <option value="20px">20px</option>
+            </select>
+        </div>
+        </div>
+
+        <div class="double-container">
+        <div class="left-content">
+          
+          <div class="text">
+          
+            <p><h1><b>Приклади доступних сайтів</b></h1><br>
+              Щоб надихнути вас на створення власного доступного сайту, ми зібрали кілька прикладів веб-ресурсів,
+              які успішно впровадили принципи веб-доступності.</p>
+            
+            <p><h2><a href="https://www.nlb.gov.sg/main/home"><b>Національна бібліотека для сліпих</b></a></h2><br>
+              це сайт, який надає широкий спектр цифрових ресурсів для людей з вадами зору. Він характеризується:
+              <ul>
+                <li>Чіткою структурою та логічною навігацією</li>
+                <li>Використанням контрастних кольорів та великих шрифтів</li>
+                <li>Наявністю альтернативного тексту для зображень</li>
+                <li>Можливістю масштабування тексту та зображень</li>
+              </ul>
+            </p>
+
+            <p><h2><a href="https://www.who.int/#"><b>Веб-сайт Всесвітньої організації охорони здоров'я</b></a></h2><br>
+                сайт демонструє, як великі організації можуть створювати доступні онлайн-ресурси. Серед його особливостей:
+                <ul>
+                  <li>Використання семантичної структури HTML</li>
+                  <li>Наявність функцій збільшення розміру тексту</li>
+                  <li>Можливість перемикання між різними мовами</li>
+                  <li>Доступність для користувачів з порушеннями слуху та когнітивними розладами</li>
+                </ul>
+            </p>
+
+            <p><h2><a href="https://www.bl.uk/"><b>Веб-сайт Британської бібліотеки</b></a></h2><br>
+                  Данний сайт є ще одним прикладом доступного онлайн-ресурсу. Він характеризується:
+                  <ul>
+                    <li>Чіткою навігацією та структурою</li>
+                    <li>Використанням висококонтрастних кольорів</li>
+                    <li>Наявністю функцій читання вголос та перекладу</li>
+                    <li>Можливістю керування сайтом за допомогою клавіатури</li>
+                  </ul>
+            </p>
+          </div>
+        
+      </div>
+
+      <div class="right-content">
+        <div class="text-right">
+          <img src="../foto/нац-бібл-сліп.jpg" width="500">
+          <p><b>Національна бібліотека для сліпих</b></p>
+          <img src="../foto/оон.jpg" width="500">
+          <p><b>Всесвітня організація охорони здоров'я</b></p>
+          <img src="../foto/брит-бібл.jpg" width="500">
+          <p><b>Британська бібліотека</b></p>
+        </div>
+      </div>
+      
+      </div>
+      <script src="script.js"></script>
+
+    </div>
+
+             <button id="scrollToTopBtn" onclick="scrollToTop()" title="Go to top">↑</button>
+
+
+            </div>
+            
+      <footer class="footer">
+            <nav>
+             <ul>
+              <li><a href="about.html">Про нас</a></li>
+             </ul>
+            </nav>
+            
+        </footer>
+    
+</body>
+</html>
